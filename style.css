@@ -101,6 +101,10 @@ nav ul li a:hover{
     color: red;
     cursor: pointer;
 }
+.btn:hover{
+    transition: .3s;
+    transform: scale(1.2);
+}
 /* banner section end */
 
 
@@ -162,4 +166,14 @@ nav ul li a:hover{
             .col-lg-10 {width: 83.33%;}
             .col-lg-11 {width: 91.66%;}
             .col-lg-12 {width: 100%;}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a{
+    margin: 10px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+            
         }
