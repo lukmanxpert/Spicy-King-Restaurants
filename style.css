@@ -192,6 +192,30 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 /* contact section end */
+
+/* footer section start  */
+.footer{
+    background-color: #060930;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-icons{
+    
+}
+.footer-icon{
+    color: white;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.footer-msg p{
+    margin: 0 10px;
+    padding: 10px;
+}
+/* footer section end  */
 /* food menu design start */
         /* Small devices (portrait tablets and large phones, 600px and up) */
         @media only screen and (min-width: 600px) {
@@ -271,5 +295,11 @@ nav ul li a:hover{
 }
 .banner-contents h1{
     width: 800px;
-}           
+}
+.footer-msg{
+    text-align: left;
+}
+.footer-icons{
+    text-align: right;
+}          
 }
